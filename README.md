@@ -31,6 +31,9 @@ $ npm install
 # Inicialize a aplicação
 $ npm start
 
+# Para executar os testes 
+$ npm test
+
 
 ```
 
