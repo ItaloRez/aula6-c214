@@ -3,6 +3,8 @@ Exercício aula 6 do lab de C214.
 
 API Node para cadastrar, buscar, editar e deletar filmes no banco de dados MongoDB.
 
+![example workflow](https://github.com/ItaloRez/aula6-c214/actions/workflows/node.js.yml/badge.svg)
+
 <h4 align="center"> 
 	:white_check_mark:  Finalizado :white_check_mark:
 </h4>
