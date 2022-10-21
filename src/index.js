@@ -1,10 +1,5 @@
-const express = require('express');
-const cors = require('cors');
+import app from "./app.js";
+import db from "./database/index.js";
 
-const app = express();
-app.use(express.json());
-app.use(cors());
-
-require('./controllers/filmeController')(app);
-
+db.connect();
 app.listen(4000);

@@ -1,13 +1,13 @@
-const mongoose = require('mongoose');
+import mongoose from "mongoose";
 
-const uri =
-  'mongodb+srv://user:user@cluster0.w7ksyne.mongodb.net/?retryWrites=true&w=majority';
-
-mongoose.connect(uri, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
-
-mongoose.Promise = global.Promise;
-
-module.exports = mongoose;
+export default {
+  connect() {
+    const uri = `mongodb+srv://root:root@cluster0.u199ygy.mongodb.net/?retryWrites=true&w=majority`;
+    return mongoose.connect(uri, {
+      // Configurações de conexão
+    });
+  },
+  disconnect() {
+    return mongoose.disconnect();
+  },
+};
